@@ -1,2 +1,3 @@
-# VajraSec-arch-Indrabahadurkc-Networkwalks-BO83-WK1-PM-1-CYBERSECURITY-LAB-SETUP
-A hands-on cybersecurity lab built with VirtualBox and Kali Linux to explore vulnerabilities, practice penetration testing, and learn how security attacks and defenses work in a controlled environment.
+<h1 align="center">🔓🔑Cybersecurity Environment Lab Setup</h1>
+Developing a practical cybersecurity lab to explore penetration testing, ethical hacking, and real-world security techniques in a controlled environment
+
