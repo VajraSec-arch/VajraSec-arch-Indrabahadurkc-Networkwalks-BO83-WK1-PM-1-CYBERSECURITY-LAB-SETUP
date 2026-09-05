@@ -73,25 +73,37 @@ Network Address	10.0.0.0/24
 Kali IP	10.0.0.2
 Gateway	10.0.0.1
 DNS	8.8.8.8
+
 🧰 Tools Used
+
 VirtualBox
+
 Kali Linux
+
 7-Zip
+
 Nmap
+
 Linux networking utilities
+
 GitHub
 
 ### 🛠️ Lab Setup Process Step 1 — Install 7-Zip
 
 7-Zip was used to extract the Kali Linux virtual-machine package before importing it into VirtualBox.
 
-📷 Screenshot: Add your own 7-Zip screenshot here.
+
+<img width="2786" height="1614" alt="Screenshot 2026-09-05 091919" src="https://github.com/user-attachments/assets/dd9bb93e-4c1e-4b5b-82d7-8997f2ec8380" />
+
 
 ### Step 2 — Install VirtualBox
 
 VirtualBox was installed as the virtualization platform for creating and managing the cybersecurity lab.
 
-📷 Screenshot: Add your own VirtualBox screenshot here.
+
+<img width="2848" height="1632" alt="Screenshot 2026-09-03 063953" src="https://github.com/user-attachments/assets/4a6ed265-5b7b-4886-96ad-a02251fbaeb9" />
+
+
 
 ### Step 3 — Create the NAT Network
 
@@ -104,7 +116,8 @@ IPv6:         Disabled
 
 This allows multiple virtual machines to communicate through the same virtual network while maintaining external connectivity.
 
-📷 Screenshot: Add your NAT Network screenshot here.
+<img width="2872" height="1808" alt="Screenshot 2026-09-03 071151" src="https://github.com/user-attachments/assets/264a694f-99f2-4fc9-b31b-a1416675e35e" />
+
 
 ### Step 4 — Import Kali Linux
 
@@ -117,8 +130,8 @@ Adapter Type:  Intel PRO/1000 MT Desktop
 RAM:           2048 MB
 
 A shared folder was also configured for convenient file transfer between the host and Kali VM.
+<img width="2858" height="1720" alt="Screenshot 2026-09-05 082823" src="https://github.com/user-attachments/assets/d0164e58-0e03-4919-8483-3ca339a8542a" />
 
-📷 Screenshot: Add your Kali Linux screenshot here.
 
 ### 🌐 Step 5 — Configure Kali Linux Network
 
@@ -130,8 +143,9 @@ Gateway:       10.0.0.1
 DNS:           8.8.8.8
 
 A consistent IP makes the Kali machine easier to identify during future lab exercises.
+<img width="2812" height="1722" alt="Screenshot 2026-09-05 082911" src="https://github.com/user-attachments/assets/21108de2-082e-4ca5-a663-609b1e1c21aa" />
 
-📷 Screenshot: Add your network configuration screenshot here.
+
 
 ### 💾 Step 6 — Create a Clean VM Snapshot
 
@@ -141,8 +155,9 @@ Snapshot Name:
 Clean Kali - Network Setup
 
 This provides a recovery point that can be used if future experiments change the VM configuration.
+<img width="2880" height="1828" alt="Screenshot 2026-09-05 102402" src="https://github.com/user-attachments/assets/db0b88f1-efbf-468f-80a8-36e804ffcbdb" />
 
-📷 Screenshot: Add your snapshot screenshot here.
+
 
 🧪 Lab Verification
 
@@ -160,7 +175,8 @@ IP Address: 10.0.0.2/24
 Gateway:    10.0.0.1
 DNS:        8.8.8.8
 
-📷 Screenshot: Add your verification screenshot here.
+<img width="2870" height="1776" alt="Screenshot 2026-09-05 083007" src="https://github.com/user-attachments/assets/5c675b1c-06bf-412a-be62-0b3d878ec780" />
+
 
 ### 🐛 Problem Encountered & Solution
 Internet Connectivity After Static IP Configuration
@@ -203,18 +219,17 @@ This project is intended strictly for educational and authorized cybersecurity p
 All testing should be performed only on systems that I own or have explicit permission to test.
 
 🔗 Tools & Resources
-7-Zip
-VirtualBox
-Kali Linux
+7-Zip:https://7-zip.org/download.html
+
+VirtualBox:https://virtualbox.org/wiki/Downloads
+
+Kali Linux:https://kali.org/get-kali
 
 ### 👤 Author
+Waqas Karim
+Cybersecurity Professional B083
 
-Your Name
-
-Cybersecurity Learner | Networking | Ethical Hacking
-
-
-LinkedIn: Add your LinkedIn profile
+LinkedIn:https://www.linkedin.com/in/waqaskarim/
 
 
 ### 📋 Project Information
